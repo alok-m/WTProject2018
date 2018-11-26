@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.topnav {
+		background-color: black;
+		overflow: hidden;
+		background: rgb(0, 0, 0);
+		background: rgba(0, 0, 0);
+		position: fixed;
+		z-index: 100000;
+
+	}
+
+	
+	.topnav-right a {
+		float: left;
+		color: white;
+		padding: 28px 28px;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 700;
+		opacity: 1;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		padding-right: 28px;
+	}
+	.topnav-left a {
+		float: left;
+		color: white;
+		padding: 20px 20px;
+		text-decoration: none;
+		font-size: 27px;
+		opacity: 1;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		padding-left: 65px;
+
+	}
+	.topnav-right a:hover {
+		color: #1ED760;
+		
+	}
+	body { 
+    padding: 0;
+    margin: 0; 
+    background-color: #000048;
+} 
+
+	.topnav-right {
+		float: right;
+	}
+
+	.text{
+		color: white;
+	}
+	.sticky {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.logo-img{
+		z-index: 1000;
+	}
+
+	.active a{
+		color: #1ED760;
+	}
+
+	body{
+		padding-bottom: 0px;
+	}
+
+	.head{
+		font-size: 60px;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-weight: 700;
+		color: white;
+		margin-top: 10%;
+	}
+
+	.head2{
+		font-size: 25px;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: white;
+		position: relative;
+		margin-top: 5%;
+		margin-left: 5%;
+	}
+
+	.head3{
+		font-size: 25px;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		color: white;
+		position: relative;
+		margin-top: 2%;
+		margin-left: 5%;
+		display: none;
+	}
+
+	.q1{
+		cursor: pointer;
+		margin-top: 2%;
+		margin-left: 0%;
+	}
+
+	.q1:hover{
+		color: #1ED760;	
+	}
+
+	.change-bg{
+		background-color: white;
+		color: 
+		#000048;
+		margin-top:6%;
+		padding-top: 3%;
+	}
+	.head5{
+		font-size: 25px;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		margin-top: 1%;
+	}
+
+	
+	.line{
+		border-bottom: 1px solid white;
+    	padding: 15px 0 10px;
+    	margin-bottom: 30px;
+    	text-align: center;
+	}
+
+	.line1{
+		border-bottom: 1px solid #000048 ;
+    	padding: 15px 0 10px;
+    	margin-bottom: 30px;
+    	text-align: center;
+	}
+
+	</style>
+
+	
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		function myfunction() {
+    var x = document.getElementById("ans1");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+		function myfunction1() {
+    var x = document.getElementById("ans2");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myfunction2() {
+    var x = document.getElementById("ans3");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myfunction3() {
+    var x = document.getElementById("ans4");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+function myfunction4() {
+    var x = document.getElementById("ans5");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+function myfunction5() {
+    var x = document.getElementById("ans6");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+	</script>
+		<div class="bg1">
+		<div class="topnav sticky">
+			<div class="topnav-left">
+				<a href="main.html"><img class="logo-img" src="static/logo1.png" width="40" height="40" ALT="align box" ALIGN=CENTER><strong> Spatify</strong></a>
+			</div>
+			<div class="topnav-right">
+				<span class="active" ><a href="help_spatify.html" >Help</a></span>
+				<a class="text" href="developers.html">Developers</a>
+				<a class="text" href="">|</a>
+				<a class="text" href="register.php">Sign up</a>
+				<a class="text" href="index.php">Log In</a>
+
+			</div>
+		</div>
+		
+		<div class="head" align="CENTER">
+			How can we help you?
+		</div>
+		<div class="line">
+		
+	</div>
+		<div class="head2">
+			Here are some often asked questions.
+
+		<div onclick="myfunction()" class="head2 q1">
+		
+			Q: What is Spatify?
+		
+			<div class="head3" id="ans1">
+				Ans: Spatify is a place where you can store and manage all your songs on the go and listen from anywhere!
+			</div>
+		</div>
+		<div onclick="myfunction1()" class="head2 q1">
+		
+			Q: Can I listen to my music from anywhere?
+		
+			<div class="head3" id="ans2">
+				Ans: As Bob the builder says, "YES, YOU CAN!"
+			</div>
+		</div>
+		<div onclick="myfunction2()" class="head2 q1">
+		
+			Q: Do I have to pay for it?
+		
+			<div class="head3" id="ans3">
+				Ans: No, it's completely free! 
+			</div>
+		</div>
+		<div onclick="myfunction3()" class="head2 q1">
+		
+			Q: Is this a rip off of Spotify?
+		
+			<div class="head3" id="ans4">
+				Ans: No, as you can see from our completely original home page and logo! 
+			</div>
+		</div>
+		<div onclick="myfunction4()" class="head2 q1">
+		
+			Q: Can I upload videos?
+		
+			<div class="head3" id="ans5">
+				Ans: Again, As Bob the builder says, "YES, YOU CAN!" 
+			</div>
+		</div>
+		<div onclick="myfunction5()" class="head2 q1">
+		
+			Q: Is this a legit site?
+		
+			<div class="head3" id="ans6">
+				Ans: Yes, it is. We do not sell your information to other third party sites. 
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="head change-bg" align="CENTER">
+
+			Still need some help?
+		<div class="line1">
+		
+	</div>	
+	<div class="head5 change-bg" align="CENTER">
+		Mail us: help.spatify@spotify.com</br>
+		</br>or</br>
+		</br>Contact us: +911234567890
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+	</div>
+	<div class="head5 change-bg"> 
+		We will be happy to answer your queries.
+
+	</div>
+	<div class="change-bg">
+		
+	</div>
+	
+	<div></div>
+</div>
+
+
+</body>
+</html>

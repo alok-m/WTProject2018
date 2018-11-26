@@ -1,0 +1,13 @@
+body{
+	background: black;
+}
+
+.uploader{
+	width :50%;
+	margin-top: 10%;
+	margin-left: 350px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #1ED760;
+	border-radius: 10px;
+}

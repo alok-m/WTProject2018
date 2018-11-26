@@ -1,0 +1,270 @@
+.logo{
+		text-align: center;
+		text-decoration: none;
+		color: black;
+		font-size: 35px;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		display: inline-block;
+		position: relative;
+		
+		padding-top: 20px;
+
+	}
+    body{
+        background-image: url(../static/yesss.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
+
+	.line{
+		border-bottom: 1px solid #d9dadc;
+    	padding: 15px 0 10px;
+    	margin-bottom: 30px;
+    	text-align: center;
+	}
+
+	.align{
+		text-align: center;
+	}
+
+	#login-email{
+	box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 30%;
+    height: 27px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9dadc;
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    font-family: Circular, Helvetica, Arial, sans-serif;		
+}
+
+#confirm-email{
+	box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 30%;
+    height: 27px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9dadc;
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+}
+
+#sign-up-pass{
+	box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 30%;
+    height: 27px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9dadc;
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+}
+
+#username{
+	box-shadow: none;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    width: 30%;
+    height: 27px;
+    padding: 6px 12px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9dadc;
+    border-radius: 0;
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #222326;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+}
+
+	::-webkit-input-placeholder { /* WebKit browsers */
+    color: #222326;
+    opacity: 0.60;
+}
+
+#month{
+	display: inline-block;
+	text-transform: capitalize;
+	height: 48px;
+    line-height: 1em;
+    border-radius: 2px;
+    background-color: #FFF;
+    position: relative;
+    margin-top: 30px;
+    border: 1px solid #dfe0e6;
+    color: #88898c;
+    font-size: .9375em;
+    padding: .625em .625em .625em;
+    width: 11.5%;
+    font-family: Circular, Helvetica, Arial, sans-serif;
+
+}
+
+#day{
+	    text-transform: capitalize;
+	    height: 48px;
+    	padding: 0 .75em;
+    	border-radius: 2px;
+    	width: 5%;
+    	background-color: #FFF;
+    	border: 1px solid #dfe0e6;
+    	color: #1c1c1f;
+    	font-size: .9375em;
+    	font-family: Circular, Helvetica, Arial, sans-serif;
+    	display: inline-block;
+    	cursor: text;
+    	position: relative;
+    	margin-left: 3%; 
+    	
+}
+
+#year{
+	    text-transform: capitalize;
+	    height: 48px;
+    	padding: 0 .75em;
+    	border-radius: 2px;
+    	width: 5%;
+    	background-color: #FFF;
+    	border: 1px solid #dfe0e6;
+    	color: #1c1c1f;
+    	font-size: .9375em;
+    	font-family: Circular, Helvetica, Arial, sans-serif;
+    	display: inline-block;
+    	cursor: text;
+    	position: relative;
+    	margin-left: 3%; 
+    	
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.styl-bttn{
+		background-color: #1DB954;
+		font-size: 14px;
+		line-height: 1;
+		border-radius: 500px;
+		padding: 16px 80px 18px;
+		border-width: 0;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		display: block;
+		margin-top: 30px;
+		cursor: pointer;
+		margin-bottom: 40px;
+	}
+
+.text1{
+		color: white;
+		font-weight: 600;
+		text-align: center;
+		font-family: Circular,Helvetica,Arial,sans-serif;
+	}
+
+	.no-aacnt h4{
+		font-size: 20px;
+		text-align: center;
+		font-weight: 900;
+    	line-height: 1.9;
+    	color: black;
+    	font-family: Circular,Helvetica,Arial,sans-serif;
+	}
+
+	.hover-sign-up-bttn a:hover{
+		color: white;
+		background-color: grey;
+	}
+
+	.no-aacnt{
+		display: block;
+		
+}
+
+.line1{
+		border-bottom: 1px solid #d9dadc;
+    	padding: 15px 0 10px;
+    	margin-bottom: 30px;
+    	text-align: center;
+    	margin-left:420px;
+    	margin-right: 440px;
+    	margin-top: -20px;
+
+	}
+
+	.styl-bttn1{
+		text-decoration: none;
+		font-size: 14px;
+    	line-height: 1;
+    	border-radius: 500px;
+    	padding: 16px 48px 18px;
+    	letter-spacing: 2px;
+    	text-transform: uppercase;
+    	display: block;
+    	font-weight: 700;
+    	text-align: center;
+    	cursor: pointer;
+    	color: #616467;
+    	border: 2px solid #616467;
+    	padding-top: 16px;
+    	padding-bottom: 15px;
+    	margin-bottom: 50px;
+    	width: 20%;
+	}
+
+	form button:hover
+	{
+		background-color: #1ED760;
+	}
+
+	#checkbox-style{
+	color: #919496;
+    font-weight: 400;
+    font-family: Circular,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    position: absolute;
+    margin-left: -14%;
+    margin-top: -20px;		
+
+}
+
+
+#agree-t-c{
+    display: block;
+    margin-top: 24px;
+    border-radius: 4px;
+    width: 1.25em;
+    height: 1.25em;
+    border: 1px solid #c1c3c6;
+    font-weight: 400;
+    cursor: pointer; 
+    margin-left: -30%;
+}

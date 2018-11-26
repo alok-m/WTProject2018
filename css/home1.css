@@ -1,0 +1,277 @@
+body{
+		padding: 0;
+		margin: 0;
+		overflow-x: hidden;
+	}
+	.first-col{
+		position: absolute;
+		background-color: black;
+		height: 100vh;
+		width: 20%;
+		position: fixed;
+		z-index: 999;
+
+
+	}
+	.second-col{
+
+		background-color: black;
+		height: 100vh;
+
+	}
+	table {
+		border-collapse: collapse;
+
+	}
+
+	.text{
+
+		color: #c1c3c6;	
+		text-decoration: none;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 18px;
+		line-height: 2.5;
+		font-weight: 450;
+
+	}
+
+
+	.text-active{
+
+		color: white;	
+		text-decoration: none;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 18px;
+		line-height: 2.5;
+		font-weight: 450;
+
+	}
+
+	.text1{
+
+		color: #c1c3c6;	
+		text-decoration: none;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		line-height: 2.5;
+
+	}
+	table tr td ul li{
+		list-style: none;
+	}
+	table tr td ul li a:hover{
+
+		color: white;
+
+	}
+
+	.align{
+		margin-top: 15%;	
+	}
+
+	.align-play{
+		position: relative;	
+		margin-top: 20%;
+	}
+
+	.first-col
+	{
+		overflow:hidden; 
+		overflow-y:scroll;
+		overflow-x: hidden;
+
+	}
+
+	ul li a{
+		white-space: nowrap;
+		overflow: hidden;
+	}	
+
+	::-webkit-scrollbar { 
+		display: none; 
+	}
+
+	.bttn{
+		border-top-color: grey;
+		border-bottom-color: black;
+		border-right-color: black;
+		border-left-color: black;
+		color: #c1c3c6;
+		background-color: black;
+		float: left;
+		z-index: 1000;
+		width: 20%;
+		padding: 13px 13px 13px;
+		position: fixed;
+		font-size: 16px;
+		font-weight: 450;
+		bottom: 0;
+		cursor: pointer;
+	}
+
+	.bttn1{
+		border-color: black;
+		color: #c1c3c6;
+		background-color: black;
+		left: 0;
+		margin-left:-6%; 
+		display: block;
+		width: 20%;
+		padding: 13px 13px 13px;
+		font-size: 16px;
+		font-weight: 450;
+		cursor: pointer;
+	}
+
+	button:hover{
+		color: white;
+	}
+
+	button:focus 
+	{
+		outline:0;
+	}
+
+	.songs-h1{
+		color: white; position: relative; margin-left: 23%;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 40px;
+		font-weight: 900;
+		
+
+		
+	}
+
+	.title{
+		color: #c1c3c6;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 200;
+		position: relative;
+		margin-left: 320px;
+		line-height: 3;
+		text-transform: uppercase;
+	}
+
+	.artist{
+		color: #c1c3c6;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 200;
+		position: relative;
+		margin-left: 100px;
+		line-height: 3;
+		text-transform: uppercase;
+	}
+
+	.album{
+		color: #c1c3c6;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 200;
+		position: relative;
+		margin-left: 40px;
+		line-height: 3;
+		text-transform: uppercase;
+	}
+
+	.time{
+		color: #c1c3c6;
+		font-family: Circular, Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		font-weight: 200;
+		position: relative;
+		margin-left: 10px;
+		line-height: 3;
+		text-transform: uppercase;
+	}
+
+	.second-col ul li{
+		max-width: 220px;
+		min-width: 220px;
+		white-space: nowrap;
+		overflow: hidden;
+		list-style-position: inside;
+		text-overflow: ellipsis;
+		cursor: pointer;
+	}
+
+	.second-col ul li a{
+		text-decoration: none;
+		color: #1ED760;
+	}
+
+	.second-col ul li:hover{
+		color: white;
+	}
+
+	.fix{
+		margin-left: 280px;
+		color: #1ED760;
+		font-weight: 500;
+	}
+	.fix-artist{
+		margin-left: 60px;
+		color: #1ED760;
+		font-weight: 500;
+	}
+
+	.fix-album{
+		margin-left: 0px;
+		color: #1ED760;
+		font-weight: 500;
+	}
+
+	.fix-time{
+		margin-left: -30px;
+		color: #1ED760;
+		font-weight: 500;
+	}
+
+	.file{
+		width: 0.1px;
+		height: 0.1px;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;z-index: -1;
+	}
+
+.cursor-change{
+	cursor: pointer;
+}
+.cursor-change:hover{
+	color: white;
+}
+
+.user{
+	color: white;
+	margin-left: 80%;
+	margin-top: -4%;
+	margin-bottom: 4%;
+	font-family: Circular, Helvetica, Arial, sans-serif;
+	font-weight: 500;
+}
+
+.current{
+	color: black;
+	margin-left: 20%;
+	position: fixed;
+	bottom: 0;
+	z-index: 10000;
+	padding-top: 10px;
+	padding-right: 100%;
+	background-color: 	black;
+	border-right-color: grey;
+	border-left: grey;
+	border-top: grey;
+	border-bottom-color: black;
+}
+
+.song-place{
+	color: white;
+	margin-left: 23%;
+	margin-bottom: -18%;
+	font-family: Circular, Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	z-index: 1;
+}
